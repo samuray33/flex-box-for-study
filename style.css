@@ -1,0 +1,168 @@
+#Content{
+	margin: 0 auto;
+    max-width: 1920px
+}
+
+#Content1{
+	background-color: #445162;
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+#IzuchiFlex{
+	color:#fff;
+	font-size: 50px;
+
+}
+
+#Content1Left{
+	margin: -50px 0px 0px 0px;
+}
+
+#TextNizFlex{
+	margin: -10px 0px 0px 15px;
+}
+
+#checks{
+	display: flex;
+	color: #fff;
+	margin: 20px 0px 0px 0px;
+}
+
+#Content1Foto{
+	margin: 0px 0px 0px 100px;
+}
+
+#Content2{
+	display: flex;
+	justify-content: center;
+	color: #636C78;
+	padding: 80px;
+}
+
+#Content2Foto{
+	margin: 0px 100px 0px 0px;
+}
+
+#Content3{
+	background-color: #dbdbdb;
+	color: #636C78;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#Content3Text{
+	display: flex;
+	justify-content:center;
+}
+
+#elements{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 50px;
+}
+
+#element{
+	display: flex;
+}
+
+#TextElemtnt{
+	margin-top:-20px;
+	margin-left: 30px;
+}
+
+#Text4{
+	color: #636C78;
+	display: flex;
+	justify-content: center;
+}
+
+#elemtnts4{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#element4{
+	background:#445162;
+	border-radius: 10px;
+	color: #fff;
+	padding: 0px 0px 15px 0px;
+}
+
+#TextElemtnt4{
+	margin: 0px 15px 70px 15px;
+}
+
+#TextElemtnt41{
+	margin-left: 95px;
+}
+
+#TextElemtnt42{
+	color:#445162;
+	padding: 10px 0px 10px 140px;
+	background: #fff;
+}
+
+#bottom4{
+	font-size: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 160px;
+	background: #fff;
+}
+
+#Content5{
+	background-color: #dbdbdb;
+	color: #636C78;
+	display:flex;
+	justify-content: center;
+	padding: 5px 0px 5px 0px;
+	margin-top: 100px;
+}
+
+a{
+	text-decoration:none;
+	color:#445162;
+}
+
+@media (max-width: 980px) {
+  #Content{
+	  font-size: 30px;
+  }
+  
+  #Content2Foto{
+	  display: none;
+  }
+  
+  #Content1Foto{
+	  display: none;
+  }
+  
+  #Content3Text{
+	  font-size: 45px;
+	  margin-bottom: 100px;
+	  border-bottom: 7px solid #445162;;
+  }
+  
+  #elemtnts4{
+	  flex-direction: column;
+	  padding: 0px 0px 15px 0px;
+  }
+  
+  #element4{
+	  display: flex;
+	  flex-direction: column;
+	  
+  }
+  
+  #Content4{
+	  display: none;
+  }
+  
+  #Content5{
+	  margin-top: 0px;
+	  background-color: #fff;
+	  font-size: 25px;
+  }
+  
+}
